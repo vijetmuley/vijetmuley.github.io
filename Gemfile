@@ -31,4 +31,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 #My addition:
 #gem "github-pages", group: :jekyll_plugins
 #gem "texture"
-gem "plainwhite"
+#gem "plainwhite"
