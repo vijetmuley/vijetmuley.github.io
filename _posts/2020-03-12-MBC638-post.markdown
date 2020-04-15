@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "MBC638 Project: Describing & Forecasting Flight Delays"
+date:   2020-03-14 17:00:00 -0500
+categories:
+---
+
+About the Project:
+----------
+----------
+
+The aim of the project was to study statistical dependencies between different physical and geological phenomenon to ascertain relationships between these and the delay in flights in minutes. The data used for this project was obtained from [here][1].
+
+The data corresponds to flight records from Chicago. The team wanted to broaden the horizon of the analysis and hence we decided to couple this data with weather data from Chicago corresponding the period that the flight data was recorded. The relevant weather data was from the [National Oceanic and Atmospheric Administration][2].
+
+Takeaways:
+----------
+----------
+
+This project was all about statistical analysis, and I say that because we did every speck of procedure using Excel only. We started with visual representation of data to see if there any obvious patterns we should focus primarily on. Further cleaning and amalgamation of the 2 data sets enables us to fit regression models on the data. The models we focused on were linear and non-linear multiple regression and logistic regression. The end result was a good insight on dependency of flight delays on various factors, backed by statistical evidence.
+
+A report for this project can be found [here][3].
+
+[1]: https://www.kaggle.com/usdot/flight-delays
+[2]: https://www.ncdc.noaa.gov/cdo-web/
+[3]: https://git.io/Jfv75

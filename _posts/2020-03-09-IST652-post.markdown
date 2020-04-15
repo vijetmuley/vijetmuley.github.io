@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "IST652 Project: Austin Weather Prediction"
+date:   2020-03-13 17:00:00 -0500
+categories:
+---
+
+About the Project:
+----------
+----------
+
+It was proposed that this project will focus on initial cleaning of the collected data, then model specific munging and transformation and finally 2 machine learning models, namely Gaussian Naive Bayes and Multinomial Logistic Regression models, were to be implemented in order to set up a method for predicting weather conditions/events based on different weather parameters.
+
+This project was heavily focused on data cleaning and manipulation; that is, the pre-processing necessary before the analytical models are applied to the data. The data for this project was acquired from [here][1].
+
+Takeaways:
+----------
+----------
+
+The primary takeaway from this project was the realization of need of cleaning and organization of data. Inputting bad data to analysis process will almost always generate a bad output. The pre-processing involved aggregating multiple attribute that spanned along same dimensions and engineering consolidated features from them. There were blanks in a few columns, such as precipitation, due to absence of that phenomenon. The challenge was to establish the difference between missing precipitation values and 0 in the same column.
+
+My report on this project discusses every procedural step in detail and then emphasizes on how the cleaner data was used to train the predictive models. The code and report can be found [here][2].
+
+[1]: https://www.kaggle.com/grubenm/austin-weather
+[2]: https://git.io/fjsbN

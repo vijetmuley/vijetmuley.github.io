@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "IST718 Project: Handwriting Recognition"
+date:   2020-03-21 17:00:00 -0500
+#img: https://i.kym-cdn.com/entries/icons/original/000/032/343/Screenshot_3.jpg
+categories:
+---
+
+Aim:
+----------
+----------
+
+The motivation behind taking this project up was the initial thought to make a program that can help in automated alphanumeric CAPTCHA resolution. The team believed that this thought, if materialized, can find its applications in many domains that includes accessibility, and even assistance in hinderance of automated CAPTCHA resolution.
+
+
+Preparation:
+----------
+----------
+
+To start it off, the data was acquired from [here][1].
+
+The data was available in 62 folders, with an individual folder consisting of multiple sub-folders that contained images of a particular handwritten character. A general overview of the data will be:
+
+1. 73257 digits for training, 26032 digits for testing, and 531131 additional, somewhat less difficult samples, to use as extra training data
+2. Comes in two formats:
+  * Original images with character level bounding boxes.
+  * MNIST-like 32-by-32 images centered around a single character (many of the images do contain some distractors at the sides).
+
+We planned to split the images from 'additional' folder and adding them to training and testing sets in order to have more data. The next step was to flatten the image to arrays and then adjust the grayscale levels from scale of 0 to 255 to 0 to 1 range. Smaller values work better with Multilayer Perceptron models, so this step was crucial. It was, tremendously complicated and time consuming, to say the least.
+
+Machine Learning:
+----------
+----------
+ Principal Component Analysis helped to reduce the number of principal components to 180 that were used as inputs to the Random Forest Classifier and Multilayer Perceptron model, while retaining roughly 90% of the variance explained.
+
+How it came out:
+----------
+----------
+
+![poster](/vijetmuley/assets/IST718_Final_Poster.jpg)
+
+Code:
+----------
+----------
+
+The code for this project can be found [here][2].
+
+[1]: http://ufldl.stanford.edu/housenumbers/
+[2]: https://github.com/vijetmuley/IST718
