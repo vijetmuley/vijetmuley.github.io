@@ -35,7 +35,7 @@ github_username:  vijetmuley
 
 # Build settings
 markdown: kramdown
-#theme: minima
+theme: minima
 
 #Change starts here:
 plainwhite:
