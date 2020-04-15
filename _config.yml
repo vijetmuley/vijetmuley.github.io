@@ -38,20 +38,20 @@ markdown: kramdown
 theme: minima
 
 #Change starts here:
-plainwhite:
-  name: Vijet Muley
-  sitemap: true
-  show_excerpts: true
-  social_links:
-    linkedIn: in/vijetmuley
-  navigation:
-    - title: About
-      url: /vijetmuley/about
-    - title: Resume
-      url: /vijetmuley/resume
-    - title: Publication
-      url: /vijetmuley/publication
-theme: jekyll-theme-midnight
+#plainwhite:
+#  name: Vijet Muley
+#  sitemap: true
+#  show_excerpts: true
+#  social_links:
+#    linkedIn: in/vijetmuley
+#  navigation:
+#    - title: About
+#      url: /vijetmuley/about
+#    - title: Resume
+#      url: /vijetmuley/resume
+#    - title: Publication
+#      url: /vijetmuley/publication
+#theme: jekyll-theme-midnight
 
 #Ends here
 gems:
