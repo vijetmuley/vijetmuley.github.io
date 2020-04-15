@@ -51,7 +51,7 @@ plainwhite:
       url: /vijetmuley/resume
     - title: Publication
       url: /vijetmuley/publication
-theme: plainwhite
+theme: jekyll-theme-midnight
 
 #Ends here
 gems:
